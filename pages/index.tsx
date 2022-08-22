@@ -1,26 +1,23 @@
 import {
-  Heading,
-  VStack,
-  Flex,
-  Center,
-  Container,
-  Text,
-  HStack,
-  Box,
-  Circle,
-  Button,
-  Image,
-  Spacer,
-  Badge,
   AlertDialog,
   AlertDialogBody,
-  AlertDialogFooter,
-  AlertDialogOverlay,
   AlertDialogContent,
+  AlertDialogFooter,
   AlertDialogHeader,
+  AlertDialogOverlay,
+  Badge,
+  Button,
+  Center,
+  Container,
+  Flex,
+  Heading,
+  HStack,
+  Image,
+  Text,
   useDisclosure,
+  VStack,
 } from "@chakra-ui/react";
-import React, { useState, useRef } from "react";
+import { useRef, useState } from "react";
 
 const Home = () => {
   const [wins, setWins] = useState(0);
